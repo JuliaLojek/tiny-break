@@ -1,11 +1,18 @@
 {
     "manifest_version": 2,
-    "name": "Julia's magical extension",
-    "description": "Super amazing chrome extension",
+    "name": "Tiny Break",
+    "description": "Created to take care of you while you work on the computer. It reminds you to take care of your mind, body and spirit.",
     "version": "1.0",
     "author": "Julia Lojek",
-    "page_action": {
-        "deafult_popup": "popup.html",
+    "icons": {
+        "16": "images/get_started16.png",
+        "32": "images/get_started32.png",
+        "48": "images/get_started48.png",
+        "128": "images/get_started128.png"
+    },
+    "browser_action": {
+        "deafult_title": "Tiny Break",
+        "default_popup": "popup.html",
         "default_icon": {
             "16": "images/get_started16.png",
             "32": "images/get_started32.png",
@@ -17,11 +24,14 @@
         "scripts": ["background.js"],
         "persistent": false
     },
-    "icons": {
-        "16": "images/get_started16.png",
-        "32": "images/get_started32.png",
-        "48": "images/get_started48.png",
-        "128": "images/get_started128.png"
-      },
-    "permissions": ["storage", "declarativeContent"]
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "chrome_url_overrides": { "newtab": "newtab.html" },
+    "options_ui": {
+        "chrome_style": true,
+        "page": "options.html",
+        "open_in_tab": false
+    }
 }

@@ -1,6 +1,6 @@
 ## Tiny Break
 
-**Tiny Break** is a Google Chrome extension created to take care of you while you work on your computer.
+**Tiny Break** is a Google Chrome extension created to take care of you while you work on the computer.
 
 We often get so absorbed in work or even in browsing the internet that we forget about the little things like breathing deeply, stretchng the body or drinking water to start with.
 
