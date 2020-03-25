@@ -1,5 +1,4 @@
 body {
-    min-height: 360px;
     min-width: 360px;
 }
 
@@ -10,7 +9,7 @@ main {
     margin: 0;
 }
 
-a {
+button {
     padding: 4px;
 }
 
@@ -22,7 +21,21 @@ p {
     font-size: 1rem;
 }
 
+#idea-box {
+    height: 150px;
+    margin: 16px auto;
+}
+
+#idea-box::before {
+    height: 150px;
+    width: 150px;
+}
+
 #idea {
     font-size: 1.2rem;
-    padding: 20px 0px;
+}
+
+#heart-img {
+    width: 20px;
+    height: 20px;
 }
