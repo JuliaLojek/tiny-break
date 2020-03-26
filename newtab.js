@@ -29,7 +29,7 @@ function restoreAndDisplayUserSettings() {
   }, function(items) {
     let username = items.TinyBreakUsername;
     let bgcolor = items.TinyBreakBgColor;
-    greeting.innerText = `Hi, ${username}!`;
+    items.TinyBreakUsername ? greeting.innerText = `Hi, ${username}!` : greeting.innerText = "Hi there!";
     main.style = `background: ${bgcolor}`;
   });
 }
