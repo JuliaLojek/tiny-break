@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Tiny Break",
     "description": "Created to take care of you while you work on the computer. It reminds you to take care of your mind, body and spirit.",
-    "version": "1.0",
+    "version": "1.1",
     "author": "Julia Lojek",
     "icons": {
         "16": "images/logo-16.png",

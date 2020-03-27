@@ -9,7 +9,7 @@ const ideaList = [
   "make sure your back is straight",
   "smile :)",
   "inhale deeply, exhale slowly, repeat a few times",
-  "sit straight, raise your arms to the ceiling and strecth",
+  "sit straight, raise your arms to the ceiling and stretch",
   "slowly tilt your head backwards and look at the ceiling, then bring your chin to your chest to stretch the neck",
   "tilt your head down to one shoulder, then to the other",
   "with your arms down bring your shoulders up, hold for a few seconds and then release, repeat",
