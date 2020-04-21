@@ -8,5 +8,6 @@ We often get so absorbed in work or even in browsing the internet that we forget
 
 It's quiet, non-invasive and always polite, a good work buddy.
 
+Created using HTML, CSS and JavaScript.
 
 author: Julia Lojek
